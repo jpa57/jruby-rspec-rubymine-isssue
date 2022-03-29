@@ -1,0 +1,23 @@
+# SQLite version 3.x
+#   gem 'activerecord-jdbcsqlite3-adapter'
+#
+# Configure Using Gemfile
+# gem 'activerecord-jdbcsqlite3-adapter'
+#
+development:
+  adapter: postgresql
+  database: developmentxx
+  host: 10.37.129.11 #10.37.129.4 for rfw clone .8 for Tampa Springs CLone. .11 for tampa springs  also in url for development below
+  port: 5432
+  user: postgres
+  password: bluesage
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  adapter: postgresql
+  database: testxx
+
+production:
+  adapter: postgresql
+  database: productionxx
